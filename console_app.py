@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-console_app.py
-Patstāvīgais darbs — "Mākslīgā intelekta izmantošana programmatūrā ar API"
-Autors: Jūs (lai ieliktu GitHub PR)
-Apraksts (latviski): Šī konsole-programma:
- - noliec no teksta faila (.txt) kopsavilkumu, izmantojot Hugging Face modeli
- - ģenerē atslēgvārdus (noteikts skaits) un viktorīnas jautājumus ar 4 atbilžu variantiem, izmantojot OpenAI
- - API atslēgas tiek ielādētas no .env (NEIETVER .env repozitorijā)
-"""
 
 import os
 import sys
@@ -270,3 +259,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
